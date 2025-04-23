@@ -63,3 +63,31 @@ select {
   font-size: 16px;
   text-align: center;
 }
+<style>
+  .neon-tekst {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff; /* Hvit tekstfarge */
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative; /* For at gløden skal bevege seg rundt teksten */
+  }
+
+  @keyframes neonGlod {
+    0% {
+      text-shadow: 0 0 5px #39ff14, 0 0 10px #39ff14, 0 0 20px #39ff14;
+    }
+    50% {
+      text-shadow: 0 0 20px #39ff14, 0 0 40px #39ff14, 0 0 80px #39ff14;
+    }
+    100% {
+      text-shadow: 0 0 5px #39ff14, 0 0 10px #39ff14, 0 0 20px #39ff14;
+    }
+  }
+
+  .neon-tekst:hover {
+    color: #39ff14;
+    animation: neonGlod 1.5s ease-in-out infinite;
+  }
+</style>
