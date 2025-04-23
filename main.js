@@ -48,3 +48,8 @@ calculatorButton.addEventListener("click", function calculateSum() {
 });
 
 toggleButton.addEventListener("click", themeSwitcher);
+document
+  .getElementById("confettiButton")
+  .addEventListener("click", function () {
+    confetti(); // Starter konfetti-funksjonen (fra canvas-confetti eller lignende)
+  });
