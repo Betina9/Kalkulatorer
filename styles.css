@@ -87,7 +87,7 @@ select {
   }
 
   .neon-tekst:hover {
-    color: #39ff14;
+    color: #14c4ff;
     animation: neonGlod 1.5s ease-in-out infinite;
   }
 </style>
