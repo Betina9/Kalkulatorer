@@ -21,16 +21,16 @@ body {
 }
 
 body.default {
-  background-color: #232634;
+  background-color: #191e33;
 }
 
 body.light-mode {
-  background-color: #f5e0dc;
+  background-color: #f3c8bf;
   color: #11111b;
 }
 
 body.dark-mode {
-  background-color: #232634;
+  background-color: #0c1330;
   color: #cdd6f4;
 }
 
@@ -44,7 +44,7 @@ body.dark-mode {
 
 .btn-style:hover {
   cursor: pointer;
-  background-color: #ca9ee6;
+  background-color: #75cdf0;
 }
 
 .hero-section {
