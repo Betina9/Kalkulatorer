@@ -12,23 +12,26 @@
     <h3>
       <button id="toggle-btn" class="btn-style">Dark Mode</button>
     </h3>
-        <section class="hero-section">
+    <section class="hero-section">
+      <label for="number1"></label>
+      <input type="number" id="number1" />
 
-        <label for="number1"></label>
-        <input type="number" id="number1" />
+      <label for="number2"></label>
+      <input type="number" id="number2" />
 
-        <label for="number2"></label>
-        <input type="number" id="number2" />
+      <label for="operator">Select operator</label>
+      <select id="operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+        <option value="^">^</option>
+        <option value="PI">PI</option>
+        <option value="E">E</option>
+      </select>
+      <button id="calculator-btn" class="btn-style">Calculate</button>
 
-        <label for="operator">Select operator</label>
-        <select id="operator">
-            <option value="+">+</option>
-            <option value="-">-</option>
-            <option value="*">*</option>
-            <option value="/">/</option>
-            <option value="^">^</option>
-            <option value="PI">PI</option>
-            <option value="E">E</option>
-        </select>
+      <p class="result">Sum: <span id="result">0</span></p>
+    </section>
   </body>
 </html>
