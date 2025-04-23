@@ -49,7 +49,7 @@ calculatorButton.addEventListener("click", function calculateSum() {
 
 toggleButton.addEventListener("click", themeSwitcher);
 document
-  .getElementById("confettiButton")
+  .getElementById("calculator-btn")
   .addEventListener("click", function () {
-    confetti(); // Starter konfetti-funksjonen (fra canvas-confetti eller lignende)
+    confetti(); // Dette skyter konfetti!
   });
