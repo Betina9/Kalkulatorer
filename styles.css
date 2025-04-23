@@ -76,13 +76,13 @@ select {
 
   @keyframes neonGlod {
     0% {
-      text-shadow: 0 0 5px #39ff14, 0 0 10px #39ff14, 0 0 20px #39ff14;
+      text-shadow: 0 0 5px #ff1499, 0 0 10px #ff1499, 0 0 20px #ff1499;
     }
     50% {
-      text-shadow: 0 0 20px #39ff14, 0 0 40px #39ff14, 0 0 80px #39ff14;
+      text-shadow: 0 0 20px #ff1499, 0 0 40px #ff1499, 0 0 80px #ff1499;
     }
     100% {
-      text-shadow: 0 0 5px #39ff14, 0 0 10px #39ff14, 0 0 20px #39ff14;
+      text-shadow: 0 0 5px #ff1499, 0 0 10px #ff1499, 0 0 20px #ff1499;
     }
   }
 
