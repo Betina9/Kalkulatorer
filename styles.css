@@ -91,3 +91,11 @@ select {
     animation: neonGlod 1.5s ease-in-out infinite;
   }
 </style>
+Hvis du bruker ekstern CSS, kan du plassere CSS-koden i en fil, f.eks. style.css, og koble den til HTML-en med <link>-taggen i <head>:
+
+html
+Copy
+Edit
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
