@@ -90,7 +90,7 @@ select {
   }
 
   .neon-tekst:hover {
-    color: #07b7f1;
+    color: #f107a3;
     animation: neonGlod 1.5s ease-in-out infinite;
   }
 </style>
