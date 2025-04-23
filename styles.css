@@ -7,6 +7,9 @@ h1 {
   color: rgb(13, 119, 126);
   text-align: center;
 }
+h2 {
+    color: #f10793;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -67,11 +70,11 @@ select {
   .neon-tekst {
     font-size: 3rem;
     font-weight: bold;
-    color: #fff; /* Hvit tekstfarge */
+    color: #fff;
     text-align: center;
     transition: all 0.3s ease;
     cursor: pointer;
-    position: relative; /* For at gløden skal bevege seg rundt teksten */
+    position: relative;
   }
 
   @keyframes neonGlod {
@@ -87,15 +90,8 @@ select {
   }
 
   .neon-tekst:hover {
-    color: #14c4ff;
+    color: #07b7f1;
     animation: neonGlod 1.5s ease-in-out infinite;
   }
 </style>
-Hvis du bruker ekstern CSS, kan du plassere CSS-koden i en fil, f.eks. style.css, og koble den til HTML-en med <link>-taggen i <head>:
-
-html
-Copy
-Edit
-<head>
-  <link rel="stylesheet" href="style.css">
 </head>
