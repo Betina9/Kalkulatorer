@@ -6,16 +6,16 @@ body {
 h1 {
   color: blue;
   text-align: center;
+  .snurr {
+    display: inline-block;
+    transition: transform 0.6s ease;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+  }
 }
 * {
   box-sizing: border-box;
   margin: 0;
-}
-.snurr {
-  display: inline-block;
-  transition: transform 0.6s ease;
-  transform-style: preserve-3d;
-  perspective: 1000px;
 }
 
 body {
