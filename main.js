@@ -51,5 +51,5 @@ toggleButton.addEventListener("click", themeSwitcher);
 document
   .getElementById("calculator-btn")
   .addEventListener("click", function () {
-    confetti(); // Dette skyter konfetti!
+    confetti();
   });
